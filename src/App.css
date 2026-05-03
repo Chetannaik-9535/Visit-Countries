@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.AppContainer {
+  background-color: #161624;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+}
+
+.CountriesListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #1f1f2f;
+  background-size: cover;
+  max-height: 50vh;
+  overflow-x: hidden;
+  width: 70vw;
+  border: 1px solid #334155;
+  border-radius: 5px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.Heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 1px;
+}
+
+.VisitedCountriesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.VisitedCountriesList {
+  margin: none;
+}
+
+.NotFound {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 1px;
+}
